@@ -6,8 +6,8 @@
 trigger:
 - main
 
-pool:
-  vmImage: 'windows-latest'
+pool: ado-agent1-vm
+  #vmImage: 'windows-latest'
 
 variables:
   solution: '**/*.csproj'
